@@ -8,7 +8,7 @@ public class Termo {
     public static void main(String[] args) throws IOException {
         // Declaração de variáveis;
         Scanner sc = new Scanner(System.in);
-        String tentativa = " ", resp;
+        String tentativa = "", resp;
         int pos;// Variável de posição para ajuda.
         Random r = new Random();
         Dicionario dicionario = new Dicionario(2326, "palavrasJogo.txt"); // declarando uma nova classe dicionario.
